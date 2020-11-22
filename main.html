@@ -1,0 +1,30 @@
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Marvel&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js"></script>
+    <script type="text/javascript" src="Config/APIConfig.js"></script>
+    <script type="text/javascript" src="Functions/displayResult.js"></script>
+    <script type="text/javascript" src="Functions/getResult.js"></script>
+    <script type="text/javascript" src="Functions/consultaAPI.js"></script>
+    <script type="text/javascript" src="Classes/superhero.js"></script>
+    <script type="text/javascript" src="Classes/comic.js"></script>
+</head>
+<body>
+    <header>
+        <img class="banner" src="https://2v7smn27y3922e05obea523d-wpengine.netdna-ssl.com/wp-content/uploads/2019/04/c99de12edad60f3e6766ac0a3fd8dce5-1.png" alt="">
+    </header>
+    <main>
+        <section id="section">
+            <article class="article">
+                <h1 class="h1">XABMARVEL</h1>
+                <form id="form" class="form">
+                    <label for="superhero" class="label"><b>Introduzca el nombre de un super heroe:</b></label>
+                    <input type="text" id="superhero" class="superhero-input">
+                    <input type="button" value="BUSCAR" class="submit_input" onclick="mainFunction(this)">
+                </form>
+            </article>
+        </section>
+    </main>
+    <footer></footer>
+</body>
